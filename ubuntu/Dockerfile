@@ -5,6 +5,6 @@ RUN apt-get install -y bash-completion vim-nox
 RUN apt-get clean
 
 WORKDIR /root
-COPY .bashrc.patch ./
+COPY *.patch ./
 RUN patch .bashrc < .bashrc.patch
-RUN rm .bashrc.patch
+RUN rm *.patch
