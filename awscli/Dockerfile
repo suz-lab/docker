@@ -5,4 +5,4 @@ RUN apt-get install -y groff python-pip
 RUN apt-get clean
 
 RUN pip install awscli
-
+RUN ln -s /usr/local/bin/aws_bash_completer /etc/bash_completion.d/aws
