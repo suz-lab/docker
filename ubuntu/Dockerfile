@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 
 RUN apt-get update
-RUN apt-get install -y patch bash-completion byobu vim-nox
+RUN apt-get install -y patch bash-completion vim-nox
 RUN apt-get clean
 
 WORKDIR /root
