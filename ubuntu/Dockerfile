@@ -13,3 +13,4 @@ RUN rm .bashrc.patch
 RUN curl -sOL https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh
 RUN sh ./install.sh
 RUN rm install.sh 
+COPY .vimrc ./
