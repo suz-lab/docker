@@ -1,7 +1,7 @@
 FROM suzlab/python:latest
 
 RUN apt-get update
-RUN apt-get install -y curl libfontconfig1 fonts-ipafont-mincho fonts-ipafont-gothic
+RUN apt-get install -y libfontconfig1 fonts-ipafont-mincho fonts-ipafont-gothic
 RUN apt-get clean
 
 RUN pip install selenium
