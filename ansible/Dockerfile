@@ -1,6 +1,6 @@
 FROM suzlab/python:latest
 
-RUN pip install locustio pyzmq
+RUN pip install ansible
 
 WORKDIR /root
 
