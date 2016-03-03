@@ -1,10 +1,8 @@
-FROM suzlab/python:latest
+FROM suzlab/ubuntu:latest
 
 RUN apt-get update
-RUN apt-get install -y python-dev
+RUN apt-get install -y python-pip vim-python-jedi
 RUN apt-get clean
-
-RUN pip install locustio pyzmq
 
 WORKDIR /root
 
