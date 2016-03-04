@@ -14,3 +14,4 @@ RUN curl -sOL https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/
 RUN sh ./install.sh
 RUN rm install.sh 
 COPY .vimrc ./
+RUN vim +NeoBundleInstall +qall
