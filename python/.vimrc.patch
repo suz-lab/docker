@@ -1,8 +1,8 @@
-16a17,18
-> NeoBundle 'davidhalter/jedi-vim'
+13a14,15
 > NeoBundle 'tell-k/vim-autopep8'
+> NeoBundle 'davidhalter/jedi-vim'
 27a30,33
 > 
-> "vim-autopep8 Scripts--------------------------
+> " Begin autopep8 Scripts------------------------
 > let g:autopep8_disable_show_diff=1
-> "End vim-autopep8 Scripts----------------------
+> " End autopep8 Scripts--------------------------
