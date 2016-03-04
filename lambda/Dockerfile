@@ -1,6 +1,6 @@
 FROM suzlab/python:latest
 
-RUN pip install python-lambda-local
+RUN pip install python-lambda-local lambda-uploader
 
 WORKDIR /root
 
