@@ -13,7 +13,7 @@ RUN patch .bashrc < .bashrc.patch
 RUN rm .bashrc.patch
 
 COPY jsonlint.patch ./
-RUN patch /usr/local/bin/jsonlint < jsonlint.patch
+RUN patch /usr/local/lib/node_modules/jsonlint/lib/cli.js < jsonlint.patch
 RUN rm jsonlint.patch
 
 RUN curl -sOL https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh
