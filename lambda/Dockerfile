@@ -1,4 +1,4 @@
-FROM suzlab/python:latest
+FROM suzlab/awscli:latest
 
 RUN pip install python-lambda-local lambda-uploader
 

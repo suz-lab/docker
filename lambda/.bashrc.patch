@@ -1,4 +1,4 @@
 102c102
-< PS1="(python)$PS1"
+< PS1="(awscli)$PS1"
 ---
 > PS1="(lambda)$PS1"
