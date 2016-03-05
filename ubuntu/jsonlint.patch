@@ -1,0 +1,4 @@
+1c1
+< #!/usr/bin/env node
+---
+> #!/usr/bin/env nodejs
