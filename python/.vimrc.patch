@@ -1,7 +1,7 @@
-13a14,15
+21a22,23
 > NeoBundle 'tell-k/vim-autopep8'
 > NeoBundle 'davidhalter/jedi-vim'
-27a30,33
+43a46,49
 > 
 > " Begin autopep8 Scripts------------------------
 > let g:autopep8_disable_show_diff=1
