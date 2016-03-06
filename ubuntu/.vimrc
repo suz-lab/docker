@@ -19,6 +19,7 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'elzr/vim-json'
 NeoBundle '5t111111/neat-json.vim'
+NeoBundle 'tpope/vim-fugitive'
 " Required:
 call neobundle#end()
 " Required:
