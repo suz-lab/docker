@@ -1,4 +1,6 @@
-102c102
+101,102c101,102
+< # ubuntu
 < PS1="(ubuntu)$PS1"
 ---
+> # python
 > PS1="(python)$PS1"
