@@ -7,5 +7,5 @@
 >     . /etc/bash_completion
 > fi
 > 
-> #
+> # ubuntu
 > PS1="(ubuntu)$PS1"
