@@ -1,4 +1,7 @@
-102c102
+101,102c101,103
+< # python
 < PS1="(python)$PS1"
 ---
+> # awscli
 > PS1="(awscli)$PS1"
+> aws configure
