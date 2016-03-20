@@ -9,4 +9,4 @@ dependencies:
 
 test:
     override:
-        - docker run suzlab/ubuntu
+        - docker run suzlab/ubuntu bash
