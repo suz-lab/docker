@@ -9,6 +9,7 @@ dependencies:
         - docker build -t suzlab/docker docker/.
         - docker build -t suzlab/python python/.
         - docker build -t suzlab/awscli awscli/.
+        - docker build -t suzlab/lambda lambda/.
 
 test:
     override:
