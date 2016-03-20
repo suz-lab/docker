@@ -6,6 +6,9 @@ dependencies:
     override:
         - docker info
         - docker build -t suzlab/ubuntu ubuntu/.
+        - docker build -t suzlab/docker docker/.
+        - docker build -t suzlab/python python/.
+        - docker build -t suzlab/awscli awscli/.
 
 test:
     override:
