@@ -1,7 +1,8 @@
-101,102c101,103
+101,102c101,104
 < # python
 < PS1="(python)$PS1"
 ---
 > # awscli
 > PS1="(awscli)$PS1"
 > git --git-dir=/root/cloudformation/.git/ pull
+> aws configure
