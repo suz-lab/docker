@@ -1,7 +1,7 @@
-102c102,105
+101,102c101,103
+< # ubuntu
 < PS1="(ubuntu)$PS1"
 ---
+> # docker
 > PS1="(docker)$PS1"
-> 
-> #
 > git --git-dir=/root/docker/.git/ pull
