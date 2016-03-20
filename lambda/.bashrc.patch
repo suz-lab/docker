@@ -1,7 +1,7 @@
-102c102,105
+101,102c101,103
+< # awscli
 < PS1="(awscli)$PS1"
 ---
+> # lambda
 > PS1="(lambda)$PS1"
-> 
-> #
 > git --git-dir=/root/lambda/.git/ pull
