@@ -4,5 +4,5 @@
 ---
 > # awscli
 > PS1="(awscli)$PS1"
-> git --git-dir=/root/cloudformation/.git/ pull
+> git --git-dir=/root/cloudformation/.git/ --work-tree=/root/cloudformation/ pull
 > aws configure
