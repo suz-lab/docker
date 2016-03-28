@@ -4,4 +4,4 @@
 ---
 > # lambda
 > PS1="(lambda)$PS1"
-> git --git-dir=/root/lambda/.git/ pull
+> git --git-dir=/root/lambda/.git/ --work-tree=/root/lambda/ pull
