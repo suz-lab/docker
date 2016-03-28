@@ -4,4 +4,4 @@
 ---
 > # docker
 > PS1="(docker)$PS1"
-> git --git-dir=/root/docker/.git/ pull
+> git --git-dir=/root/docker/.git/ --work-tree=/root/docker/ pull
